@@ -14,9 +14,9 @@
     
     <body>
         <header><center>
-            <h1>The Local Weather Update</h1>
+            <h1>The Local Weather Update Based On Your City</h1>
             <form action="#" id="form">
-            <h2>Enter The Zip Code: <input id="zip" type="text"></h2></form><br>
+            <h2>Enter The Zip Code From Your City: <input id="zip" type="text"></h2></form><br>
             <h3><span id="zipCodeError"></h3></span>
         </header></center>
 
@@ -28,9 +28,9 @@
         
         <div class="card2">
         <center><table>
-        <tr><td id="td1">Current Temperature For City :</td><td id="td2"><span id="currentTemp"></span></td><td id="td3">Fahrenheit For City</td></tr>
-        <tr><td id="td1">Wind Speed For City:</td><td id="td2"><span id="windSpeed"></span><td id="td3">Miles Per Hour For City</td></td></tr>
-        <tr><td id="td1">Wind Direction For City:</td><td id="td2"><span id="windDirection"></span></td><td id="td3">Degrees For City</td></tr>
+        <tr><td id="td1">Current Temperature For Your City :</td><td id="td2"><span id="currentTemp"></span></td><td id="td3">Fahrenheit For City</td></tr>
+        <tr><td id="td1">Wind Speed For Your City:</td><td id="td2"><span id="windSpeed"></span><td id="td3">Miles Per Hour For City</td></td></tr>
+        <tr><td id="td1">Wind Direction For Your City:</td><td id="td2"><span id="windDirection"></span></td><td id="td3">Degrees For City</td></tr>
         </table></center>
         </div>
       
